@@ -1,0 +1,521 @@
+/*	All */
+html,
+body,
+header {
+}
+
+/*	NAVBAR	*/
+.navbar {
+  font-family: "josefin sans", sans-serif;
+}
+.top-nav-collapse {
+  background-color: rgba(0, 0, 0, 0.9);
+  opacity: 100%;
+}
+.navbar-brand,
+.nav-link {
+}
+.smth {
+  padding-top: 9px;
+  font-weight: 700;
+}
+
+/*	Tombol	*/
+.tombolnav {
+  text-shadow: 0.5px 0.5px 0 rgba(0, 0, 0, 0.7);
+  border-radius: 2px;
+  padding: 8px 16px;
+  font-weight: 500;
+}
+.tombolnav:hover {
+  border-radius: 2px;
+  background-color: rgba(0, 123, 255, 0.7) !important;
+}
+
+/*	MAIN	#faf9f7*/
+.main {
+  background-color: #faf9f7;
+  padding-top: 70px;
+  padding-bottom: 60px;
+  margin-top: -32px;
+}
+.main img {
+  width: 460px;
+  height: 460px;
+  object-fit: cover; /*	SUPAYA GAMBAR TIDAK TERTARIK	*/
+}
+.main h2 {
+  font-family: sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  padding-top: 70px;
+  color: black;
+  padding-left: 5.5px;
+}
+.main a {
+  width: 300px;
+  font-size: 20px;
+  margin-top: 25px;
+  text-align: left;
+  font-family: courier, arial, helvetica;
+  border-radius: 5px;
+}
+.main1 {
+  background-color: #f4faff;
+  padding-top: 70px;
+  padding-bottom: 60px;
+  margin-top: -32px;
+}
+.main1 img {
+  width: 460px;
+  height: 460px;
+  object-fit: cover; /*	SUPAYA GAMBAR TIDAK TERTARIK	*/
+}
+.main1 h2 {
+  font-family: sans-serif;
+  font-size: 35px;
+  font-weight: 500;
+  padding-top: 70px;
+  color: #1c3f94;
+  padding-left: 5.5px;
+}
+.main1 a {
+  width: 300px;
+  font-size: 20px;
+  margin-top: 25px;
+  text-align: left;
+  font-family: courier, arial, helvetica;
+  border-radius: 5px;
+}
+.main2 {
+  background-color: rgba(255, 160, 122, 0.3);
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.main2 h2 {
+  font-family: arial;
+  font-size: 35px;
+  font-weight: 500;
+  color: #b24020;
+}
+.main1 a {
+  width: 300px;
+  text-align: left;
+  vertical-align: middle !important;
+}
+.navbtn {
+  margin-top: 30px;
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  border-radius: 5px;
+  box-shadow: red !important;
+  font-family: courier, arial, helvetica;
+}
+
+/*	CARD	*/
+.h3card {
+  font-size: 24px;
+  color: #333;
+  font-weight: bold;
+}
+#aboutme {
+  padding-top: 40px;
+  background-color: rgba(255, 250, 205, 0.2); /*	Warna Light pada Bootstrap*/
+}
+#aboutme h1 {
+  margin-bottom: 80px;
+  text-align: center;
+  font-family: arial, helvetica;
+  font-weight: 700;
+}
+#aboutme img {
+  margin-top: -60px;
+  width: 130px;
+  height: 130px;
+}
+#aboutme i {
+  font-size: 26px;
+  color: #555;
+}
+#aboutme p {
+  font-weight: 500;
+}
+#aboutme .card {
+  border-radius: 30px;
+  margin-top: -32px;
+  margin-bottom: 40px;
+  box-shadow: 5px 5px 15px #007bff;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.4s ease-in;
+}
+#aboutme .card:hover {
+  border-radius: 30px;
+  background: #498cff;
+  color: #fff;
+  border: none;
+  box-shadow: 5px 5px 10px #9e9e9e;
+}
+#aboutme .card:hover h3,
+#aboutme .card:hover i,
+#aboutme .card:hover p {
+  color: #fff;
+}
+
+/*	CONTACT	*/
+.contact {
+  padding-top: 50px;
+  background-color: #ececec;
+  margin-bottom: -24px;
+}
+.contp {
+  color: rgba(0, 0, 0, 0.8) !important;
+}
+.contact li {
+  background-color: #ececec;
+  border-radius: 2px;
+}
+
+/*	FOOTER	*/
+.footer {
+  width: 100%;
+  background-color: #e0ffff;
+  padding: 50px 0;
+}
+
+/*	LARGE DESKTOP VERSION	*/
+@media (min-width: 1200px) {
+  /*	NAVBAR	*/
+  .navbar {
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .top-nav-collapse {
+    background-color: rgba(0, 0, 0, 0.9);
+    opacity: 100%;
+  }
+  .top-nav-collapse strong {
+    color: white !important;
+    text-shadow: 1px 1px 2px #007bff !important;
+  }
+  .navbar-brand {
+    font-size: 30px;
+  }
+  .navbar strong {
+    color: #007bff;
+    text-shadow: 1px 1px 2px white;
+    font-weight: 900;
+  }
+  .navbar strong span {
+    font-weight: 300;
+  }
+  .nav-link {
+    font-color: #007bff;
+  }
+
+  /*	GAMBAR HEADER*/
+  .jumbotron {
+    background: url(/img/imglp/bg4.jpg) no-repeat center;
+    background-size: cover;
+    margin-top: 74px;
+    height: 560px;
+    background-size: 100% 100%;
+  }
+  .jumbotron .display-4 {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-transform: capitalize;
+    color: #1c3f94;
+    font-weight: 700;
+    font-size: 24px;
+    border-radius: 6px;
+    text-align: center;
+    margin-top: 134px;
+    margin-left: 195px;
+    margin-right: 260px;
+    padding: 16px 10px 27px 10px;
+  }
+  .tomboljm {
+    font-family: courier, arial, helvetica;
+    background-color: #ccc;
+    border-radius: 2px;
+    padding: 9px 16px 7px 16px;
+    font-weight: bold;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.8);
+    margin-left: 436px;
+    margin-top: -36px;
+  }
+  .tomboljm:hover {
+    border-radius: 3px;
+    border: none;
+    box-shadow: 1px 1px 3px;
+  }
+}
+
+/*	DESKTOP VERSION	*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /*	NAVBAR	*/
+  .navbar {
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .top-nav-collapse {
+    background-color: rgba(0, 0, 0, 0.9);
+    opacity: 100%;
+  }
+  .top-nav-collapse strong {
+    color: white !important;
+    text-shadow: 1px 1px 2px #007bff !important;
+  }
+  .navbar-brand {
+    font-size: 30px;
+  }
+  .navbar strong {
+    color: #007bff;
+    text-shadow: 1px 1px 2px white;
+    font-weight: 900;
+  }
+  .navbar strong span {
+    font-weight: 300;
+  }
+  .nav-link {
+    font-color: #007bff;
+  }
+
+  /*	GAMBAR HEADER*/
+  .jumbotron {
+    background: url(/img/imglp/bg4.jpg) no-repeat center;
+    background-size: cover;
+    margin-top: 74px;
+    height: 550px;
+    background-size: 100% 100%;
+  }
+  .jumbotron .display-4 {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-transform: capitalize;
+    color: #1c3f94;
+    font-weight: 700;
+    font-size: 24px;
+    border-radius: 6px;
+    text-align: center;
+    margin-top: 134px;
+    margin-left: 195px;
+    margin-right: 260px;
+    padding: 16px 10px 27px 10px;
+  }
+  .tomboljm {
+    font-family: courier, arial, helvetica;
+    background-color: #ccc;
+    border-radius: 2px;
+    padding: 9px 16px 7px 16px;
+    font-weight: bold;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.8);
+    margin-left: 340px;
+    margin-top: -36px;
+  }
+  .tomboljm:hover {
+    border-radius: 3px;
+    border: none;
+    box-shadow: 1px 1px 3px;
+  }
+}
+
+/*	TABLET VERSION	*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /*	NAVBAR	*/
+  .navbar {
+    background-color: black;
+  }
+  .view::after {
+    /*	Gradasi	*/
+    content: "";
+    width: 100%;
+    height: 90%;
+    background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0)
+    );
+    position: absolute;
+    bottom: 0;
+  }
+  .navbar-brand {
+  }
+  .navbar strong {
+    text-shadow: 0.4px 0.4px 0.7px white;
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  /*	GAMBAR HEADER*/
+  .jumbotron {
+    background: url(/img/imglp/bg4.jpg) no-repeat center;
+    background-size: cover;
+    object-fit: cover; /*	SUPAYA GAMBAR TIDAK TERTARIK	*/
+    margin-top: 63px;
+    height: 540px;
+  }
+  .jumbotron .display-4 {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-transform: capitalize;
+    color: #1c3f94;
+    font-weight: 700;
+    font-size: 24px;
+    border-radius: 6px;
+    text-align: center;
+    margin-top: 134px;
+    padding: 16px 10px 27px 10px;
+  }
+  .tomboljm {
+    font-family: courier, arial, helvetica;
+    background-color: #ccc;
+    border-radius: 2px;
+    padding: 9px 16px 7px 16px;
+    font-weight: bold;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.8);
+    margin-left: 258px;
+    margin-top: -36px;
+  }
+}
+
+/*	TABLET VERSION	*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /*	NAVBAR	*/
+  .navbar {
+    background-color: black;
+  }
+  .view::after {
+    /*	Gradasi	*/
+    content: "";
+    width: 100%;
+    height: 90%;
+    background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0)
+    );
+    position: absolute;
+    bottom: 0;
+  }
+  .navbar-brand {
+  }
+  .navbar strong {
+    text-shadow: 0.4px 0.4px 0.7px white;
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  /*	GAMBAR HEADER*/
+  .jumbotron {
+    background: url(/img/imglp/bg4.jpg) no-repeat center;
+    background-size: cover;
+    object-fit: cover; /*	SUPAYA GAMBAR TIDAK TERTARIK	*/
+    margin-top: 63px;
+    height: 530px;
+  }
+  .jumbotron .display-4 {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-transform: capitalize;
+    color: #1c3f94;
+    font-weight: 700;
+    font-size: 24px;
+    border-radius: 6px;
+    text-align: center;
+    margin-top: 134px;
+    padding: 16px 10px 27px 10px;
+  }
+  .tomboljm {
+    font-family: courier, arial, helvetica;
+    background-color: #ccc;
+    border-radius: 2px;
+    padding: 9px 16px 7px 16px;
+    font-weight: bold;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.8);
+    margin-left: 150px;
+    margin-top: -36px;
+  }
+}
+
+/*	MOBILE VERSION	*/
+@media (max-width: 575.98px) {
+  /*	NAVBAR	*/
+  .navbar {
+    background-color: black;
+  }
+  .view::after {
+    /*	Gradasi	*/
+    content: "";
+    width: 100%;
+    height: 90%;
+    background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0)
+    );
+    position: absolute;
+    bottom: 0;
+  }
+  .navbar-brand {
+  }
+  .navbar strong {
+    text-shadow: 0.4px 0.4px 0.7px white;
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  /*	GAMBAR HEADER*/
+  .jumbotron {
+    background: url(/img/imglp/bg4.jpg) no-repeat center;
+    background-size: cover;
+    object-fit: cover; /*	SUPAYA GAMBAR TIDAK TERTARIK	*/
+    margin-top: 63px;
+    height: 500px;
+  }
+  .jumbotron .display-4 {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-transform: capitalize;
+    color: #1c3f94;
+    font-weight: 700;
+    font-size: 24px;
+    border-radius: 6px;
+    text-align: center;
+    margin-top: 134px;
+    padding: 16px 10px 27px 10px;
+  }
+  .tomboljm {
+    font-family: courier, arial, helvetica;
+    background-color: #ccc;
+    border-radius: 2px;
+    padding: 9px 16px 7px 16px;
+    font-weight: bold;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.8);
+    margin-left: 150px;
+    margin-top: -36px;
+  }
+}
+
+/*	CODE WARNA PADA BOOTSTRAP
+
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+*/
